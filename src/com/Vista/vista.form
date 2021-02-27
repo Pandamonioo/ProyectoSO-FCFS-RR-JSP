@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="699" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="BotonAnadir" pref="261" max="32767" attributes="0"/>
+                              <Component id="Ejecutar" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="33" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="BotonEjecucion1" min="-2" pref="211" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+                                  <Component id="BotonEjecucion" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="botonEspera" min="-2" pref="53" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jScrollPane2" min="-2" pref="699" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+                          <Component id="Ejecutar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="BotonAnadir" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="146" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="143" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="BotonEjecucion1" min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="botonEspera" min="-2" pref="53" max="-2" attributes="0"/>
+                      <Component id="BotonEjecucion" min="-2" pref="51" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="124" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="LineaTiempo">
+              <Properties>
+                <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="101" rowCount="25">
+                    <Column editable="true" title="0" type="java.lang.Object"/>
+                    <Column editable="true" title="1" type="java.lang.Object"/>
+                    <Column editable="true" title="2 " type="java.lang.Object"/>
+                    <Column editable="true" title="3" type="java.lang.Object"/>
+                    <Column editable="true" title="4" type="java.lang.Object"/>
+                    <Column editable="true" title="5" type="java.lang.Object"/>
+                    <Column editable="true" title="6" type="java.lang.Object"/>
+                    <Column editable="true" title="7" type="java.lang.Object"/>
+                    <Column editable="true" title="8" type="java.lang.Object"/>
+                    <Column editable="true" title="9" type="java.lang.Object"/>
+                    <Column editable="true" title="10" type="java.lang.Object"/>
+                    <Column editable="true" title="11" type="java.lang.Object"/>
+                    <Column editable="true" title="12" type="java.lang.Object"/>
+                    <Column editable="true" title="13" type="java.lang.Object"/>
+                    <Column editable="true" title="14" type="java.lang.Object"/>
+                    <Column editable="true" title="15" type="java.lang.Object"/>
+                    <Column editable="true" title="16" type="java.lang.Object"/>
+                    <Column editable="true" title="17" type="java.lang.Object"/>
+                    <Column editable="true" title="18" type="java.lang.Object"/>
+                    <Column editable="true" title="19" type="java.lang.Object"/>
+                    <Column editable="true" title="20" type="java.lang.Object"/>
+                    <Column editable="true" title="21" type="java.lang.Object"/>
+                    <Column editable="true" title="22" type="java.lang.Object"/>
+                    <Column editable="true" title="23" type="java.lang.Object"/>
+                    <Column editable="true" title="24" type="java.lang.Object"/>
+                    <Column editable="true" title="25" type="java.lang.Object"/>
+                    <Column editable="true" title="26" type="java.lang.Object"/>
+                    <Column editable="true" title="27" type="java.lang.Object"/>
+                    <Column editable="true" title="28" type="java.lang.Object"/>
+                    <Column editable="true" title="29" type="java.lang.Object"/>
+                    <Column editable="true" title="30" type="java.lang.Object"/>
+                    <Column editable="true" title="31" type="java.lang.Object"/>
+                    <Column editable="true" title="32" type="java.lang.Object"/>
+                    <Column editable="true" title="33" type="java.lang.Object"/>
+                    <Column editable="true" title="34" type="java.lang.Object"/>
+                    <Column editable="true" title="35" type="java.lang.Object"/>
+                    <Column editable="true" title="36" type="java.lang.Object"/>
+                    <Column editable="true" title="37" type="java.lang.Object"/>
+                    <Column editable="true" title="38" type="java.lang.Object"/>
+                    <Column editable="true" title="39" type="java.lang.Object"/>
+                    <Column editable="true" title="40" type="java.lang.Object"/>
+                    <Column editable="true" title="41" type="java.lang.Object"/>
+                    <Column editable="true" title="42" type="java.lang.Object"/>
+                    <Column editable="true" title="43" type="java.lang.Object"/>
+                    <Column editable="true" title="44" type="java.lang.Object"/>
+                    <Column editable="true" title="45" type="java.lang.Object"/>
+                    <Column editable="true" title="46" type="java.lang.Object"/>
+                    <Column editable="true" title="47" type="java.lang.Object"/>
+                    <Column editable="true" title="48" type="java.lang.Object"/>
+                    <Column editable="true" title="49" type="java.lang.Object"/>
+                    <Column editable="true" title="50" type="java.lang.Object"/>
+                    <Column editable="true" title="51" type="java.lang.Object"/>
+                    <Column editable="true" title="52" type="java.lang.Object"/>
+                    <Column editable="true" title="53" type="java.lang.Object"/>
+                    <Column editable="true" title="54" type="java.lang.Object"/>
+                    <Column editable="true" title="55" type="java.lang.Object"/>
+                    <Column editable="true" title="Title " type="java.lang.Object"/>
+                    <Column editable="true" title="57" type="java.lang.Object"/>
+                    <Column editable="true" title="58" type="java.lang.Object"/>
+                    <Column editable="true" title="59" type="java.lang.Object"/>
+                    <Column editable="true" title="60" type="java.lang.Object"/>
+                    <Column editable="true" title="61" type="java.lang.Object"/>
+                    <Column editable="true" title="62" type="java.lang.Object"/>
+                    <Column editable="true" title="63" type="java.lang.Object"/>
+                    <Column editable="true" title="64" type="java.lang.Object"/>
+                    <Column editable="true" title="65" type="java.lang.Object"/>
+                    <Column editable="true" title="66" type="java.lang.Object"/>
+                    <Column editable="true" title="67" type="java.lang.Object"/>
+                    <Column editable="true" title="68" type="java.lang.Object"/>
+                    <Column editable="true" title="69" type="java.lang.Object"/>
+                    <Column editable="true" title="70" type="java.lang.Object"/>
+                    <Column editable="true" title="71" type="java.lang.Object"/>
+                    <Column editable="true" title="72" type="java.lang.Object"/>
+                    <Column editable="true" title="73" type="java.lang.Object"/>
+                    <Column editable="true" title="74" type="java.lang.Object"/>
+                    <Column editable="true" title="75" type="java.lang.Object"/>
+                    <Column editable="true" title="76" type="java.lang.Object"/>
+                    <Column editable="true" title="77" type="java.lang.Object"/>
+                    <Column editable="true" title="78" type="java.lang.Object"/>
+                    <Column editable="true" title="79" type="java.lang.Object"/>
+                    <Column editable="true" title="80" type="java.lang.Object"/>
+                    <Column editable="true" title="81" type="java.lang.Object"/>
+                    <Column editable="true" title="82" type="java.lang.Object"/>
+                    <Column editable="true" title="83" type="java.lang.Object"/>
+                    <Column editable="true" title="84" type="java.lang.Object"/>
+                    <Column editable="true" title="85" type="java.lang.Object"/>
+                    <Column editable="true" title="86" type="java.lang.Object"/>
+                    <Column editable="true" title="87" type="java.lang.Object"/>
+                    <Column editable="true" title="88" type="java.lang.Object"/>
+                    <Column editable="true" title="89" type="java.lang.Object"/>
+                    <Column editable="true" title="90" type="java.lang.Object"/>
+                    <Column editable="true" title="91" type="java.lang.Object"/>
+                    <Column editable="true" title="92" type="java.lang.Object"/>
+                    <Column editable="true" title="93" type="java.lang.Object"/>
+                    <Column editable="true" title="94" type="java.lang.Object"/>
+                    <Column editable="true" title="95" type="java.lang.Object"/>
+                    <Column editable="true" title="96" type="java.lang.Object"/>
+                    <Column editable="true" title="97" type="java.lang.Object"/>
+                    <Column editable="true" title="98" type="java.lang.Object"/>
+                    <Column editable="true" title="99" type="java.lang.Object"/>
+                    <Column editable="true" title="Fin" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="autoResizeMode" type="int" value="0"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[2222, 500]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[2500, 500]"/>
+                </Property>
+                <Property name="requestFocusEnabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="Procesos">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="8" rowCount="40">
+                    <Column editable="true" title="Proceso" type="java.lang.String"/>
+                    <Column editable="true" title="T Llegada" type="java.lang.String"/>
+                    <Column editable="true" title="Rafaga" type="java.lang.String"/>
+                    <Column editable="true" title="T Comienzo" type="java.lang.String"/>
+                    <Column editable="true" title="T Final" type="java.lang.String"/>
+                    <Column editable="true" title="T Retorno" type="java.lang.String"/>
+                    <Column editable="true" title="T Espera" type="java.lang.String"/>
+                    <Column editable="true" title="Cola" type="java.lang.String"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="Bloqueados">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="3" rowCount="20">
+                    <Column editable="true" title="Proceso" type="java.lang.String"/>
+                    <Column editable="true" title="Rafaga" type="java.lang.String"/>
+                    <Column editable="true" title="TiempoBloqueo" type="java.lang.String"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="Ejecutar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ejecutar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EjecutarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="BotonAnadir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A&#xf1;adir proceso"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonAnadirActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="BotonEjecucion1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="BotonEjecucion">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="ff" red="66" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="botonEspera">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
